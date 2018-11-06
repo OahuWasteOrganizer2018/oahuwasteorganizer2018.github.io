@@ -21,4 +21,4 @@ A page idea we could use is a form that simplifies trash input that any logged i
 
 The input form will imitate the paper excel sheet used at the UH trash audits.
 
-![mockup input form page](/images/input-form.PNG)
+![mockup input form page](/images/input-form.png)
