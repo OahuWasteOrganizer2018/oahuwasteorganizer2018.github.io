@@ -19,4 +19,6 @@ A page idea we could use is a form that simplifies trash input that any logged i
 
 ![mockup landing page and login](/images/landing-page.jpg)
 
+The input form will imitate the paper excel sheet used at the UH trash audits.
 
+![mockup input form page](/images/input-form.PNG)
