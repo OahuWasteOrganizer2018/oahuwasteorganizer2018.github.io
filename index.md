@@ -17,8 +17,8 @@ Our solution to this problem is to create a user-friendly web application that u
 Our final project consists of members Alton Lee, Emily Pang, and Jake Weber. Our project is inspired by our HACC team consisting of Leighton Villanueva, Alton Lee, Emily Pang, Jake Weber, Nicholas Lum, Ethan Chow, Jordan Ooka, Cristian Aspacio, and Ty Uehara.
 
 ### Links
-You can view our deployed app <a href=http://owo.meteorapp.com/>here</a>.
-Our GitHub page is located <a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/>here</a>.
+You can view our deployed app <a href="http://owo.meteorapp.com/">here</a>.
+Our GitHub page is located <a href="https://github.com/oahu-waste-organizer/oahu-waste-organizer/">here</a>.
 
 ## User Guide
 
