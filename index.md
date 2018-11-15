@@ -4,7 +4,7 @@
 * [Installation](#installation)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
-* [User Guide] (#user-guide)
+*[User Guide] (#user-guide)
 
 ## About
 Currently, trash audits across UH campuses have a very primitive way of storing and calculating data. It consists of a single piece of paper and one very hard working individual. One representative is in search of a more streamlined solution of storing the data.
