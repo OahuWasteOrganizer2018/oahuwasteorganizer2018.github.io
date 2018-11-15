@@ -12,6 +12,7 @@ Our solution to this problem is to create a user-friendly web application that u
 Our final project consists of members Alton Lee, Emily Pang, and Jake Weber. Our project is inspired by our HACC team consisting of Leighton Villanueva, Alton Lee, Emily Pang, Jake Weber, Nicholas Lum, Ethan Chow, Jordan Ooka, Cristian Aspacio, and Ty Uehara.
 
 ## Development History
+You can view a live deployment here: http://owo.meteorapp.com/
 
 ### Milestone 1 Mockup Development
 
