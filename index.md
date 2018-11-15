@@ -60,7 +60,7 @@ When users first go to the Oahu Waste Organizer website (found at http://owo.met
 
 In the events tab, anyone is free scroll through the list of upcoming and previous events, and choose to view the information of each one.
 
-![](images/landing.events-nonuser.PNG)
+![](images/events-nonuser.PNG)
 
 If a user is a participant of a trash audit, they can log in through the login button at the top right of the navbar and gain access to an additional option on the events page to input data for a particular event.
 
