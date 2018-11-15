@@ -23,3 +23,21 @@ A page idea we could use is a form that simplifies trash input that any logged i
 The input form will imitate the paper excel sheet used at the UH trash audits.
 
 ![mockup input form page](/images/input-form.png)
+
+## User Guide
+
+When users first go to the Oahu Waste Organizer website (found at http://owo.meteorapp.com), they are greeted with the home page.
+
+![](images/landing.PNG)
+
+In the events tab, anyone is free scroll through the list of upcoming and previous events, and choose to view the information of each one.
+
+![](images/landing.events-nonuser.PNG)
+
+If a user is a participant of a trash audit, they can log in through the login button at the top right of the navbar and gain access to an additional option on the events page to input data for a particular event.
+
+![](images/events.PNG)
+
+Through the About tab, the user can gain a further insight on what trash audits are about, the overall mission and long-term goals of these projects, and the effects of holding trash audits on various UH campuses.
+
+![](images/about.PNG)
