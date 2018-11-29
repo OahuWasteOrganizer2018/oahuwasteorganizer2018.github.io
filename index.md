@@ -22,7 +22,7 @@ Our GitHub page is located <a href="https://github.com/oahu-waste-organizer/oahu
 
 ## User Guide
 
-When users first go to the Oahu Waste Organizer website (found at <a href="http:owo.meteorapp.com/">http://owo.meteorapp.com</a>), they are greeted with the home page.
+When users first go to the Oahu Waste Organizer website (found at http://owo.meteorapp.com), they are greeted with the home page.
 
 ![](images/landing.PNG)
 
@@ -75,7 +75,7 @@ You can then open up <a href="http://localhost:3000/#/">http://localhost:3000</a
 We have sectioned off work into three milestones: Mockup Development, Data Implementation, and Final Touches.
 
 ### Milestone 1 Mockup Development
-<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/1>Milestone 1 on GitHub. </a>
+<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/1>Milestone 1 on GitHub.</a>
 
 A page idea we could use is a form that simplifies trash input that any logged in user can add. Bags and Categories can be added as needed. Our home page is accessible to the general public and contains information and data of previous years of trash auditing. The home page also links to a heat map of the different campuses and how much trash each building produces on each campus.
 
@@ -86,7 +86,7 @@ The input form will imitate the paper excel sheet used at the UH trash audits.
 ![mockup input form page](/images/input-form.png)
 
 ### Milestone 2: Data Implementation
-<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2>Milestone 2 on Github. </a>
+<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2>Milestone 2 on Github.</a>
 
 For milestone 2, we focused on implementing our databse with our mockups to actually input and display the data we could collect and input.
 
@@ -97,6 +97,6 @@ We also implemented the data from our database to display the data from the audi
 ![](images/charts.PNG)
 
 ### Milestone 3: Final Touches
-asdfghjkl :)
+For Milestone 3, we aim to squash any bugs, give more power to the admin user, and make it easier for the user to jump to the current audits.
 
 ![](images/about.PNG)
