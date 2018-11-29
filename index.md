@@ -22,7 +22,7 @@ Our GitHub page is located <a href="https://github.com/oahu-waste-organizer/oahu
 
 ## User Guide
 
-When users first go to the Oahu Waste Organizer website (found at http://owo.meteorapp.com), they are greeted with the home page.
+When users first go to the Oahu Waste Organizer website (found at <a href="http:owo.meteorapp.com/">http://owo.meteorapp.com</a>), they are greeted with the home page.
 
 ![](images/landing.PNG)
 
