@@ -88,7 +88,13 @@ The input form will imitate the paper excel sheet used at the UH trash audits.
 ### Milestone 2: Data Implementation
 <a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2>Milestone 2 on Github.</a>
 
-asdfghjkl :)
+For milestone 2, we focused on implementing our databse with our mockups to actually input and display the data we could collect and input.
+
+![](images/input.PNG)
+
+We also implemented the data from our database to display the data from the audits in graphs and charts to help visualize data.
+
+![](images/charts.PNG)
 
 ### Milestone 3: Final Touches
 asdfghjkl :)
