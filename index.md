@@ -1,9 +1,14 @@
-# Table of contents
+# Oahu Waste Organizer
+![](images/logo.png)
 
+## Table of contents
+
+* [Current Deployed App](http://owo.meteorapp.com/)
+* [GitHub page](https://github.com/oahu-waste-organizer/oahu-waste-organizer/)
 * [About Oahu Waste Organizer 2018](#about)
   * [Links](#links)
   * [User Guide](#user-guide)
-* [Installation](#installation)
+  * [Installation](#installation)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: Data Implementation](#milestone-2-data-implementation)
@@ -16,21 +21,21 @@ Our solution to this problem is to create a user-friendly web application that u
 
 Our final project consists of members Alton Lee, Emily Pang, and Jake Weber. Our project is inspired by our HACC team consisting of Leighton Villanueva, Alton Lee, Emily Pang, Jake Weber, Nicholas Lum, Ethan Chow, Jordan Ooka, Cristian Aspacio, and Ty Uehara.
 
-### Links
-You can view our deployed app <a href="http://owo.meteorapp.com/">here</a>.
-Our GitHub page is located <a href="https://github.com/oahu-waste-organizer/oahu-waste-organizer/">here</a>.
+## Links
+* [Deployed app](http://owo.meteorapp.com/)
+* [GitHub page](https://github.com/oahu-waste-organizer/oahu-waste-organizer/)
 
 ## User Guide
 
-When users first go to the Oahu Waste Organizer website (found at http://owo.meteorapp.com), they are greeted with the home page.
+When users first go to the Oahu Waste Organizer (abbreviated O.W.O.) web application, they are greeted with the home page. Here they can marvel at our background and learn a bit about waste auditing. 
 
 ![](images/landing.PNG)
 
-In the events tab, anyone is free scroll through the list of upcoming and previous events, and choose to view the information of each one.
+In the events tab, anyone can view through the list of upcoming and previous events, and choose to view the information of each one. Events are sorted by most recent event. 
 
 ![](images/events-nonuser.PNG)
 
-Information of each audit can be viewed in minimalist-styled yet detailed graphs and charts. 
+Information of each audit can be viewed in minimalist-styled yet detailed graphs and charts. Charts can be toggled to display by either category weight or category volume. The bar graph on the right can be interacted with to view the breakdown of that category. 
 
 ![](images/charts.png)
 
@@ -42,12 +47,20 @@ The input data page allows the user to enter the campus, building, date, etc. Th
 
 ![](images/input.PNG)
 
-Through the About tab, the user can gain a further insight on what trash audits are about, the overall mission and long-term goals of these projects, and the effects of holding trash audits on various UH campuses.
+Through the About tab, the user can gain a further insight on what trash audits are about, the overall mission and long-term goals of these projects, and the effects of holding trash audits on various UH campuses. Here they can also learn a bit more about the team behind the project, and other contact information. 
 
-## Installation
-To begin, <a href="https://www.meteor.com/install">install Meteor</a>.
+![](images/about.PNG)
 
-Then, download <a href="https://github.com/oahu-waste-organizer/oahu-waste-organizer">OWO</a>.
+## Installation Guide
+To begin, [install Meteor](https://www.meteor.com/install).
+
+Then, download [O.W.O.](https://github.com/oahu-waste-organizer/oahu-waste-organizer). Copy the following files and directories into a local workspace:
+
+* app/
+* config/
+* .gitignore
+
+These files contain the O.W.O. template. 
 
 Then cd into the app directory and install the libraries with:
 <div class="highlight">
@@ -67,36 +80,67 @@ You many also have to install Highcharts.js, run the app using:
 </code>
 </div>
 
-If done correctly, some default users and data will be created. 
+If done correctly, some default users and data will be created. The command window should look like this:
+<div class="highlight">
+<code>
+> meteor-application-template-react@ start {directory}/app
+> meteor --no-release-check --settings ../config/settings.development.json
 
-You can then open up <a href="http://localhost:3000/#/">http://localhost:3000</a> to view the template application and can log in using the credentials in <a href="https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/config/settings.development.json">settings.development.json</a>.
+[[[[[ ~{directory}/app ]]]]]
+
+=> Started proxy.                             
+=> Started MongoDB.                           
+I20181130-00:00:00.915(-10)? Creating the default user(s)
+I20181130-00:00:00.915(-10)?   Creating user admin@foo.com.
+I20181130-00:00:00.918(-10)?   Creating user john@foo.com.
+I20181130-00:00:00.918(-10)? Creating sample data.
+I20181130-00:00:00.919(-10)?   Adding: Building A audit data
+I20181130-00:00:00.919(-10)?   Adding: Queen Liliuokalani Center audit data
+I20181130-00:00:00.920(-10)?   Adding: Johnson Building audit data
+
+=> Started your app.
+
+=> App running at: [http://localhost:3000](http://localhost:3000)
+</code>
+</div>
+
+You can then open up [http://localhost:3000](http://localhost:3000) to view the template application and can log in using the sample credentials located [here](https://github.com/oahu-waste-organizer/oahu-waste-organizer/blob/master/config/settings.development.json).
 
 ## Development History
 We have sectioned off work into three milestones: Mockup Development, Data Implementation, and Final Touches.
+* Milestone 1
+  * Mockup pages
+* Milestone 2
+  * Event collection
+  * Dynamic events page
+  * Dynamic charts and graphs
+* Milestone 3
+  * Coming soon!
 
-### Milestone 1 Mockup Development
-<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/1>Milestone 1 on GitHub.</a>
+### Milestone 1: Mockup Development
+[Milestone 1](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/1)>.
 
 A page idea we could use is a form that simplifies trash input that any logged in user can add. Bags and Categories can be added as needed. Our home page is accessible to the general public and contains information and data of previous years of trash auditing. The home page also links to a heat map of the different campuses and how much trash each building produces on each campus.
 
-![mockup landing page and login](/images/landing-page.jpg)
+![mockup landing page and login](/images/mockup-landing.jpg)
 
 The input form will imitate the paper excel sheet used at the UH trash audits.
 
-![mockup input form page](/images/input-form.png)
+![mockup input form page](/images/mockup-input.png)
 
 ### Milestone 2: Data Implementation
-<a href=https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2>Milestone 2 on Github.</a>
+[Milestone 2](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2)>.
 
-For milestone 2, we focused on implementing our databse with our mockups to actually input and display the data we could collect and input.
+We significantly changed the application for this milestone. For Milestone 2, we focused on implementing our database into our frontend, adding functionality to a page that lists events dynamically. 
 
-![](images/input.PNG)
+![](images/events.PNG)
 
 We also implemented the data from our database to display the data from the audits in graphs and charts to help visualize data.
 
 ![](images/charts.PNG)
 
 ### Milestone 3: Final Touches
+[Milestone 3](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)>.
+
 For Milestone 3, we aim to squash any bugs, give more power to the admin user, and make it easier for the user to jump to the current audits.
 
-![](images/about.PNG)
