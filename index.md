@@ -108,17 +108,17 @@ You can then open up [http://localhost:3000](http://localhost:3000) to view the 
 
 ## Development History
 We have sectioned off work into three milestones: Mockup Development, Data Implementation, and Final Touches.
-* Milestone 1
+* [Milestone 1](#milestone-1-mockup-development)
   * Mockup pages
-* Milestone 2
+* [Milestone 2](#milestone-2-data-implementation)
   * Event collection
   * Dynamic events page
   * Dynamic charts and graphs
-* Milestone 3
+* [Milestone 3](#milestone-3-final-touches)
   * Coming soon!
 
 ### Milestone 1: Mockup Development
-[Milestone 1](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/1)>.
+View Milestone 1 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
 
 A page idea we could use is a form that simplifies trash input that any logged in user can add. Bags and Categories can be added as needed. Our home page is accessible to the general public and contains information and data of previous years of trash auditing. The home page also links to a heat map of the different campuses and how much trash each building produces on each campus.
 
@@ -129,7 +129,7 @@ The input form will imitate the paper excel sheet used at the UH trash audits.
 ![mockup input form page](/images/mockup-input.png)
 
 ### Milestone 2: Data Implementation
-[Milestone 2](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/2)>.
+View Milestone 2 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
 
 We significantly changed the application for this milestone. For Milestone 2, we focused on implementing our database into our frontend, adding functionality to a page that lists events dynamically. 
 
@@ -140,7 +140,7 @@ We also implemented the data from our database to display the data from the audi
 ![](images/charts.PNG)
 
 ### Milestone 3: Final Touches
-[Milestone 3](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)>.
+View Milestone 3 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
 
 For Milestone 3, we aim to squash any bugs, give more power to the admin user, and make it easier for the user to jump to the current audits.
 
