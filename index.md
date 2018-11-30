@@ -54,7 +54,7 @@ Through the About tab, the user can gain a further insight on what trash audits 
 ## Installation Guide
 To begin, [install Meteor](https://www.meteor.com/install).
 
-Then, download [O.W.O.](https://github.com/oahu-waste-organizer/oahu-waste-organizer). Copy the following files and directories into a local workspace:
+Then, download [O.W.O](https://github.com/oahu-waste-organizer/oahu-waste-organizer). Copy the following files and directories into a local workspace:
 
 * app/
 * config/
@@ -63,31 +63,27 @@ Then, download [O.W.O.](https://github.com/oahu-waste-organizer/oahu-waste-organ
 These files contain the O.W.O. template. 
 
 Then cd into the app directory and install the libraries with:
-<div class="highlight">
-<code>$ meteor npm install
-</code>
-</div>
+```
+$ meteor npm install
+```
 
 After the libraries have been installed, run the app using:
-<div class="highlight">
-<code>$ meteor npm run start
-</code>
-</div>
+```
+$ meteor npm run start
+```
 
 You many also have to install Highcharts.js, run the app using:
-<div class="highlight">
-<code>$ npm install highcharts-react-official
-</code>
-</div>
+```
+$ npm install highcharts-react-official
+```
 
 If done correctly, some default users and data will be created. The command window should look like this:
-<div class="highlight">
-<code>
+```
 > meteor-application-template-react@ start {directory}/app
 > meteor --no-release-check --settings ../config/settings.development.json
-
+ 
 [[[[[ ~{directory}/app ]]]]]
-
+ 
 => Started proxy.                             
 => Started MongoDB.                           
 I20181130-00:00:00.915(-10)? Creating the default user(s)
@@ -101,8 +97,7 @@ I20181130-00:00:00.920(-10)?   Adding: Johnson Building audit data
 => Started your app.
 
 => App running at: [http://localhost:3000](http://localhost:3000)
-</code>
-</div>
+```
 
 You can then open up [http://localhost:3000](http://localhost:3000) to view the template application and can log in using the sample credentials located [here](https://github.com/oahu-waste-organizer/oahu-waste-organizer/blob/master/config/settings.development.json).
 
