@@ -122,7 +122,9 @@ We have sectioned off work into three milestones: Mockup Development, Data Imple
   * Dynamic events page
   * Dynamic charts and graphs
 * [Milestone 3](#milestone-3-final-touches)
-  * Coming soon!
+  * Updated landing and about pages
+  * Dynamic dashboard
+  * Improved functionality
 
 ### Milestone 1: Mockup Development
 View Milestone 1 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
