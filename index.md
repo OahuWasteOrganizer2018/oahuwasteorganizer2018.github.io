@@ -149,7 +149,7 @@ We also implemented the data from our database to display the data from the audi
 ### Milestone 3: Final Touches
 View Milestone 3 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
 
-For Milestone 3, we aim to squash any bugs, give more power to the admin user, and make it easier for the user to jump to the current audits.
+For Milestone 3, we cleaned up of UI and improved the functionality of our input page and added features such as a dynamic dashboard to compare and view data.
 
 The home page was updated for a cleaner look, with additional content on the uses of the OWO app.
 
