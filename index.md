@@ -163,5 +163,8 @@ The input page was also updated, with improved Add Bag functionality.
 
 ![](images/input.PNG)
 
+The about page was also updated to provide a mission statement, the background of our app, and contact information.
+
+![](images/NewAbout.png)
 
 
