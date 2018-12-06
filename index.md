@@ -13,6 +13,7 @@
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: Data Implementation](#milestone-2-data-implementation)
   * [Milestone 3: Final Touches](#milestone-3-final-touches)
+* [Future features](#future-features)
 
 ## About
 Currently, trash audits across UH campuses have a very primitive way of storing and calculating data. It consists of a single piece of paper and one very hard working individual. One representative is in search of a more streamlined solution of storing the data.
@@ -169,4 +170,6 @@ The about page was also updated to provide a mission statement, the background o
 
 ![](images/NewAbout.png)
 
+## Future Features
 
+In the hectic days of our college careers, we allocated as much time as we could to work on the improvement of this app.  However, given more time we would like to continue to improve OWO.  Improving functionality of our input page to allow users to delete bags of trash or group bags by category would be great for ease of use.  Adding more engaging ways for people to view and compare data would also be a goal for future work.  Optimizing functions to pull database information would also be nice to imrpove the speed and efficency of our app.
