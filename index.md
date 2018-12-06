@@ -39,7 +39,7 @@ Information of each audit can be viewed in minimalist-styled yet detailed graphs
 
 ![](images/charts.png)
 
-If a user is a participant of a trash audit, they can log in through the login button at the top right of the navbar and gain access to an additional option on the events page to input data for a particular event.
+If a user is a participant of a trash audit, they can log in through the login button at the top right of the navbar or through the home page and gain access to an additional option on the events page to input data for a particular event.
 
 ![](images/events.PNG)
 
@@ -47,9 +47,21 @@ The input data page allows the user to enter the campus, building, date, etc. Th
 
 ![](images/input.PNG)
 
+Additionally, a more in-depth statistics page is available through the Dashboard tab which is only available to registered users or administrators. The page features a range of statistics at the top, with more in-depth graphs following it.
+
+![](images/dashboard.PNG)
+
 Through the About tab, the user can gain a further insight on what trash audits are about, the overall mission and long-term goals of these projects, and the effects of holding trash audits on various UH campuses. Here they can also learn a bit more about the team behind the project, and other contact information. 
 
 ![](images/about.PNG)
+
+Additionally, if the user is an admin, an Events Manager tab is visible, where they can create new events or edit a prexisting event.
+
+![](images/events-manager.PNG)
+
+The admin also has access to these options from the Events page as well.
+
+![](images/admin-events.PNG)
 
 ## Installation Guide
 To begin, [install Meteor](https://www.meteor.com/install).
@@ -138,4 +150,18 @@ We also implemented the data from our database to display the data from the audi
 View Milestone 3 [here.](https://github.com/oahu-waste-organizer/oahu-waste-organizer/projects/3)
 
 For Milestone 3, we aim to squash any bugs, give more power to the admin user, and make it easier for the user to jump to the current audits.
+
+The home page was updated for a cleaner look, with additional content on the uses of the OWO app.
+
+![](images/landing.PNG)
+
+A dashboard that pulled statistics from the database was added for registered users and administrators to view.
+
+![](images/dashboard.PNG)
+
+The input page was also updated, with improved Add Bag functionality.
+
+![](images/input.PNG)
+
+
 
